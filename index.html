@@ -34,8 +34,8 @@
       </div>
       <div class="row">
         <div class="column">
-          <input id="rest_value" type="number" placeholder="CZAS PRZERWY" />
-          <input id="work_value" type="number" placeholder="CZAS SERII" />
+          <input id="rest_value" min="1" type="number" placeholder="CZAS PRZERWY" />
+          <input id="work_value" min="1" type="number" placeholder="CZAS SERII" />
           <button id="confirm" onclick="setNewDefaults()">ZAPISZ</button>
           <p class="success hidden" id="defaults_saved">ZAPISANO!</p>
         </div>
