@@ -37,6 +37,7 @@ const log = () => {
 };
 
 const resetState = () => {
+  current_iteration = defaults.iteration;
   iteration_element.textContent = defaults.iteration;
   workout_time_element.textContent = defaults.workout_time;
   rest_time_element.textContent = defaults.rest_time;
