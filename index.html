@@ -28,22 +28,27 @@
           <p>SERIA:</p>
           <h1 id="iteration">1</h1>
         </div>
-      </div>
-      <div class="row">
         <div class="column">
           <button id="btn" onclick="startFun()">START</button>
         </div>
       </div>
       <div class="row">
         <div class="column">
-            <input id="rest_value" type="number" placeholder="CZAS PRZERWY"/>
-            <input id="work_value" type="number" placeholder="CZAS SERII"/>
-            <button id="confirm" onclick="setNewDefaults()">POTWIERDŹ</button>
-          </div>
+          <input id="rest_value" type="number" placeholder="CZAS PRZERWY" />
+          <input id="work_value" type="number" placeholder="CZAS SERII" />
+          <button id="confirm" onclick="setNewDefaults()">ZAPISZ</button>
+          <p class="success hidden" id="defaults_saved">ZAPISANO!</p>
+        </div>
       </div>
       <div class="row">
         <div class="column">
-          <ul id="log"></ul>
+          <table id="log">
+            <tr>
+              <th>CZAS SERII</th>
+              <th>CZAS PRZERWY</th>
+              <th>ILOŚĆ SERII</th>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
