@@ -2,11 +2,14 @@ html body {
   margin: 0;
   background-color: beige;
   font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
 }
 
 p,
 h1 {
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #log,
@@ -51,7 +54,6 @@ th {
   margin-bottom: 10px;
   height: 40px;
   padding: 0 20px;
-  width: 320px;
 }
 
 #log {
@@ -67,7 +69,7 @@ th {
 
 #get_ready_overlay {
   -webkit-text-stroke: 2px white;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
@@ -124,7 +126,7 @@ th {
 
 .row:first-child .column {
   -webkit-text-stroke: 2px black;
-  font-size: 26px;
+  font-size: 28px;
   letter-spacing: 1px;
   padding-left: 20px;
 }
