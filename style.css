@@ -55,6 +55,7 @@ th {
   margin-bottom: 10px;
   height: 40px;
   padding: 0 20px;
+  text-align: center;
 }
 
 #log {
@@ -109,7 +110,7 @@ th {
 .row {
   display: flex;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .row:first-child {
@@ -142,4 +143,8 @@ th {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.middle-column {
+  width: 50%;
 }

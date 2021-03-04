@@ -73,6 +73,7 @@ const showGetReady = () => {
     if (timer === 0) {
       get_ready_overlay_element.classList.remove("shown");
       clearInterval(interval_id);
+      work_audio.play();
       startCountdown();
     }
   }, 1000);
